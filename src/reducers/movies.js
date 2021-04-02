@@ -1,6 +1,8 @@
-export default (state = [], action) => {
+const mv = (state = [], action) => {
     switch (action.type) {
         default:
             return state;
     }
 }
+
+export default mv;
